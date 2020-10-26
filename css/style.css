@@ -471,6 +471,7 @@ header p {
   background-image: url(../img/bg-3-2.jpg);
   background-attachment: fixed;
   background-position: center;
+  z-index: 1;
 }
 
 #contact .jumbotron .contact-shadow {
