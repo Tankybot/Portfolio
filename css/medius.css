@@ -1,0 +1,18 @@
+#technologies .tech-icon i {
+  font-size: 120px;
+}
+
+#projects .github {
+  width: 60%;
+}
+
+@media screen and (min-width: 810px) {
+  header .bgimg .divtext {
+    height: 50vh;
+    bottom: 20%;
+  }
+  header .bgimg .greenbutton {
+    bottom: 12%;
+  }
+}
+/*# sourceMappingURL=medius.css.map */

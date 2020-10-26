@@ -1,0 +1,239 @@
+ <!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Przykład</title>
+        <meta charset="UTF=8">
+        <meta name="description" content="Super stronka o sraniu do ryja">
+        <meta name="keywords" content="stronka, responsywna,super,wgle">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" media='screen and (min-width: 576px)' href="css/small.css">
+        <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/medius.css">
+        <link rel="stylesheet" media='screen and (min-width: 992px)' href="css/large.css">
+        
+        <script src="https://kit.fontawesome.com/7a4b529361.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar">
+
+      <!-- NAVBAR -->
+      <div class="navfix">
+        <nav class="navbar shadow navbar-expand-lg fixed-top" id="navbar">
+          <a class="navbar-brand" href="#">MICHAŁ BUKO<span class="green">WSKI</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link active" href="#aboutme">O mnie</a>
+                <a class="nav-link active" href="#technologies">Technologie</a>
+                <a class="nav-link active" href="#projects">projekty</a>
+                <a class="nav-link active" href="#contact">kontakt</a>
+              </div>
+            </div>
+          </nav>
+      </div>
+
+      <!-- HEADER -->
+      <header id="home">
+        <div class="bgimg">
+          <div class="divshadow"></div>
+            <div class="os-animation divtext text-center visibility" data-animation="fadeIn" data-delay="0.3s">
+              <h1>Front<span class="green">End</span> Deve<span class="green">loper</span></h1><p>There is a diffrence between knowing a path, and walking a path~Morpheus</p>
+              <a href="#aboutme"><button type="button" class="os-animation greenbutton" data-animation="fadeIn" data-delay="0.6s">Sprawdź mnie</button></a>
+            </div>
+          <div class="arrow"> 
+            <a href="#aboutme"><i class="fas fa-angle-down"></i></a>
+          </div> 
+        </div>
+      </header>
+
+      <div class="underline"></div>
+      
+      <main>
+
+        <!-- ABOUTME -->
+        <section id="aboutme" class="scrollfix">
+          <div class="jumbotron jumbotron-fluid">
+            <h2>O mnie</h2>
+            <div class="medium-underline"></div>
+            <div class="wrapper">
+              <div class="row">
+                <div class="info col-12 col-lg-8">
+                  <div class="col info-div os-animation visibility" data-animation="fadeInUp" data-delay=".1" >
+                    <h5>Jestem</h5>
+                    <div class="small-underline"></div>
+                    <p class>Programistą Front-endowym z zamiłowania, dużo czasu poświęcam rozwijaniu się i ciągłej naucę sztuki programistycznej </p> 
+                  </div>
+                  <div class="col info-div os-animation visibility" data-animation="fadeInUp" data-delay=".15s">
+                    <h5>Dbam</h5>
+                    <div class="small-underline"></div>
+                    <p>O responsywność strony tesując ją na różnych przeglądarkach i rozdzielczościach </p>
+                  </div>
+                  <div class="col info-div os-animation visibility" data-animation="fadeInUp" data-delay=".2s">
+                    <h5>Tworzę</h5>
+                    <div class="small-underline"></div>
+                    <p>Strony wysokiej jakości, biorąc pod uwagę standardy W3C, optymalizacje, semantykę i jakość kodu</p>
+                  </div>
+                  <div class="col info-div d-lg-none info-cv os-animation visibility" data-animation="fadeInUp" data-delay=".25s">
+                    <a href="https://drive.google.com/file/d/1vhz8-TK6ayi47lvjxtnhahUjJG_tWGkD/view?usp=sharing" target="_blank"><i class="far fa-address-card "></i>
+                    <p>Sprawdź moje CV</p></a>
+                  </div>
+                </div>
+                <div class="photo col-lg-4">
+                  <div class="photo-img os-animation visibility" data-animation="fadeIn" data-delay=".3s">
+                    <div class="photo-shadow"></div>
+                    <img src="img/zdj1.jpg" alt="Moje zdjęcie">
+                  </div>
+                  <div class="CV">
+                    <div class="CV-icon os-animation visibility" data-animation="fadeInUp" data-delay=".2s">
+                      <a href="https://drive.google.com/file/d/1vhz8-TK6ayi47lvjxtnhahUjJG_tWGkD/view?usp=sharing" target="_blank"><i class="far fa-address-card "></i>
+                      <p >Sprawdź moje CV</p></a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <div class="underline"></div>
+
+         <!-- technologies -->
+         <section id="technologies" class="scrollfix">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="tech-shadow">
+              <h2>Technologie</h2>
+              <div class="wrapper row justify-content-between">
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".1s">
+                    <i class="fab fa-html5"></i>
+                    <p>Html5</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".2s">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>css3</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".3s">
+                    <i class="fab fa-js"></i>
+                    <p>javascript</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".4s">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>rwd</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".5s">
+                    <i class="fab fa-sass"></i>
+                    <p>sass</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".6s">
+                    <i class="fab fa-bootstrap"></i>
+                    <p>bootstrap</p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-xl-1 tech-icon visibility os-animation" data-animation="bounceIn" data-delay=".7s">
+                    <i class="fas fa-th"></i>
+                    <p>grid/flexbox</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="underline"></div>
+         </section>
+
+         <!-- Projects -->
+
+        <section id="projects" class="scrollfix">
+
+          <div class="jumbotron jumbotron-fluid">
+            <h2>projekty</h2>
+            <div class="medium-underline"></div>
+            <div class="wrapper">
+              <div class="card-deck slick-carousel">
+                <div class="card">
+                  <img src="img/img2.png" class="card-img-top" alt="przykładowy obraz 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Przykład 1</h5>
+                    <p class="card-text">Sekcja portfolio już w krótce</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/img1.jpg" class="card-img-top" alt="przykładowy obraz 1">
+                  <div class="card-body">
+                    <h5 class="card-title">przykład 2</h5>
+                    <p class="card-text">Sekcja portfolio już w krótce</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/img3.jpg" class="card-img-top" alt="przykładowy obraz 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Przykład 3</h5>
+                    <p class="card-text">Sekcja portfolio już w krótce</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/img3.jpg" class="card-img-top" alt="przykładowy obraz 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Przykład 3</h5>
+                    <p class="card-text">Sekcja portfolio już w krótce</p>
+                  </div>
+                </div>
+              </div>
+              <div class="github visibility os-animation" data-animation="fadeIn" data-delay=".1">
+                <div class="github-icon"><a href="google.pl" target="_blank"><i class="fab fa-github"></i></a></div>
+                <div class="github-text"><a href="google.pl" target="_blank"><p><b>Podejrzyj</b></br>kod stron które tworzę, na githubie</p></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="underline"></div>
+        <!-- Contact -->
+        <section id="contact">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="contact-shadow">
+              <h2>kontakt</h2>
+              <div class="medium-underline"></div>
+              <div class=" row text-center">
+                <div class="col-sm-6 col-md-4 order-1 order-md-1 os-animation visibility" data-animation="bounceIn" data-delay=".1s">
+                  <a href="https://www.facebook.com/profile.php?id=100005261045370" alt="facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="col-12 col-md-4 order-2 order-md-2 os-animation visibility" data-animation="bounceIn" data-delay=".2s">
+                  <a href="mailto:mbukowski663@gmail.com" alt="email" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 order-1 order-md-3 os-animation visibility" data-animation="bounceIn" data-delay=".3s">
+                  <a href="https://www.instagram.com/bula156123/?hl=pl" alt="instagram" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="underline"></div>
+        </section>
+
+      </main>
+      <footer>
+        <div class="row justify-content-around">
+          <p>&copy; Michał Bukowski 2020</p><p><i class="fas fa-envelope"></i> mbukowski663@gmail.com</p>
+        </div>
+      </footer>
+
+
+      
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+     
+      <script src="js/animation.js"></script>
+      <script src="js/jquery.waypoints.min"></script>
+      <script src="js/main.js"></script>
+    </body>
+
+</html>
