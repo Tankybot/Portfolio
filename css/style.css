@@ -56,10 +56,6 @@ body {
   padding: 0px;
 }
 
-.visibility {
-  visibility: hidden;
-}
-
 h2 {
   text-transform: uppercase;
   text-align: center;
@@ -175,9 +171,9 @@ header .divshadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-backdrop-filter: blur(2px) saturate(1.15);
-          backdrop-filter: blur(2px) saturate(1.15);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(8px) saturate(1.15);
+          backdrop-filter: blur(8px) saturate(1.15);
   z-index: -10;
 }
 
@@ -248,15 +244,15 @@ header p {
   margin-top: 10px;
 }
 
-#aboutme {
+.aboutme {
   overflow: hidden;
 }
 
-#aboutme .photo {
+.aboutme .CV {
   display: none;
 }
 
-#aboutme .info {
+.aboutme .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,7 +268,7 @@ header p {
           justify-content: space-between;
 }
 
-#aboutme .info .info-div {
+.aboutme .info .info-div {
   border: 1px solid #008f11;
   border-radius: 5px;
   width: 80%;
@@ -287,12 +283,12 @@ header p {
   transition: box-shadow .3s, -webkit-box-shadow .3s;
 }
 
-#aboutme .info .info-div:hover {
+.aboutme .info .info-div:hover {
   -webkit-box-shadow: 0px 0px 11px 3px #008f11;
           box-shadow: 0px 0px 11px 3px #008f11;
 }
 
-#aboutme .info .info-cv i {
+.aboutme .info .info-cv i {
   font-size: 70px;
   background: -webkit-linear-gradient(32deg, #ddd, #008f11);
   -webkit-background-clip: text;
@@ -300,7 +296,7 @@ header p {
   text-shadow: 0px 0px 10px #008f11;
 }
 
-#aboutme .info .info-cv p {
+.aboutme .info .info-cv p {
   margin-top: 15px;
   font-size: 14px;
   text-transform: uppercase;
@@ -309,19 +305,19 @@ header p {
   transition: color .3s;
 }
 
-#aboutme .info p {
+.aboutme .info p {
   font-size: 14px;
   text-shadow: 0px 0px 10px #008f11;
 }
 
-#aboutme .info h5 {
+.aboutme .info h5 {
   text-transform: uppercase;
   margin-bottom: 0;
   text-shadow: 0px 0px 10px #008f11;
   color: #dddddd;
 }
 
-#aboutme .info .small-underline {
+.aboutme .info .small-underline {
   width: 60px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#008f11), color-stop(darkgreen), to(#008f11));
   background-image: linear-gradient(#008f11, darkgreen, #008f11);
@@ -332,14 +328,14 @@ header p {
   margin-bottom: 15px;
 }
 
-#technologies .jumbotron {
+.technologies .jumbotron {
   background-image: url(../img/core.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: auto;
 }
 
-#technologies .jumbotron .tech-shadow {
+.technologies .jumbotron .tech-shadow {
   position: relative;
   top: -1px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -349,11 +345,11 @@ header p {
   height: 100%;
 }
 
-#technologies .tech-icon {
+.technologies .tech-icon {
   padding: 25px;
 }
 
-#technologies .tech-icon i {
+.technologies .tech-icon i {
   font-size: 140px;
   background: -webkit-linear-gradient(32deg, #ddd, #008f11);
   -webkit-background-clip: text;
@@ -366,29 +362,29 @@ header p {
   transition: transform .3s, -webkit-transform .3s;
 }
 
-#technologies .tech-icon i:hover {
+.technologies .tech-icon i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-#technologies .tech-icon p {
+.technologies .tech-icon p {
   font-size: 18px;
   color: #dddddd;
   text-shadow: 0px 0px 10px #008f11;
   text-transform: uppercase;
 }
 
-#projects .wrapper {
+.projects .wrapper {
   color: black;
   width: 100%;
   margin-bottom: 50px;
 }
 
-#projects .slick-dots li button::before {
+.projects .slick-dots li button::before {
   color: white;
 }
 
-#projects img {
+.projects img {
   height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -397,7 +393,7 @@ header p {
   padding: 10px;
 }
 
-#projects .card {
+.projects .card {
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
@@ -408,21 +404,21 @@ header p {
           box-shadow: 0px 0px 13px 0px #008f11;
 }
 
-#projects .card h5 {
+.projects .card h5 {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-#projects .card:hover {
+.projects .card:hover {
   -webkit-transform: scale(0.94);
           transform: scale(0.94);
 }
 
-#projects button {
+.projects button {
   text-shadow: 0 0 20px #008f11;
 }
 
-#projects .github {
+.projects .github {
   color: white;
   width: 80%;
   margin: 0  auto;
@@ -433,15 +429,15 @@ header p {
           box-shadow: 0px 0px 18px 0px #008f11;
 }
 
-#projects .github .github-icon {
+.projects .github .github-icon {
   font-size: 100px;
 }
 
-#projects .github .github-icon a {
+.projects .github .github-icon a {
   color: #008f11;
 }
 
-#projects .github .github-icon i {
+.projects .github .github-icon i {
   text-shadow: 0px 0px 8px #008f11;
   -webkit-transition: .3s;
   transition: .3s;
@@ -449,32 +445,32 @@ header p {
           animation: focus 1.4s infinite;
 }
 
-#projects .github .github-icon i:hover {
+.projects .github .github-icon i:hover {
   text-shadow: 0px 0px 13px #008f11;
 }
 
-#projects .github .github-text {
+.projects .github .github-text {
   text-transform: uppercase;
 }
 
-#projects .github .github-text a {
+.projects .github .github-text a {
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-#projects .github .github-text a:hover {
+.projects .github .github-text a:hover {
   color: #4FD563;
   text-shadow: 0px 0px 10px #008f11;
 }
 
-#contact .jumbotron {
+.contact .jumbotron {
   background-image: url(../img/bg-3-2.jpg);
   background-attachment: fixed;
   background-position: center;
   z-index: 1;
 }
 
-#contact .jumbotron .contact-shadow {
+.contact .jumbotron .contact-shadow {
   position: relative;
   top: -1px;
   width: 100%;
@@ -484,7 +480,7 @@ header p {
           backdrop-filter: blur(4px) saturate(1.15);
 }
 
-#contact i {
+.contact i {
   font-size: 80px;
   background: -webkit-linear-gradient(32deg, #ddd, #008f11);
   -webkit-background-clip: text;
@@ -497,7 +493,7 @@ header p {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-#contact i:hover {
+.contact i:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }

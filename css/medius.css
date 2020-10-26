@@ -1,8 +1,12 @@
-#technologies .tech-icon i {
+.visibility {
+  visibility: hidden;
+}
+
+.technologies .tech-icon i {
   font-size: 120px;
 }
 
-#projects .github {
+.projects .github {
   width: 60%;
 }
 

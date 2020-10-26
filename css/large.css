@@ -66,23 +66,23 @@ header .bgimg p {
   font-size: 20px;
 }
 
-#aboutme .info {
+.aboutme .info {
   max-height: 80vh;
 }
 
-#aboutme .info .info-div {
+.aboutme .info .info-div {
   margin-bottom: 35px;
 }
 
-#aboutme .info .info-div p {
+.aboutme .info .info-div p {
   font-size: 16px;
 }
 
-#aboutme .info .info-div:nth-child(3) {
+.aboutme .info .info-div:nth-child(3) {
   margin-bottom: 60px;
 }
 
-#aboutme .photo {
+.aboutme .CV {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,40 +93,17 @@ header .bgimg p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#aboutme .photo .photo-img {
-  position: relative;
+.aboutme .CV .CV-icon {
+  padding: 100px 0px;
 }
 
-#aboutme .photo .photo-img .photo-shadow {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-#aboutme .photo .photo-img img {
-  max-width: 80%;
-  height: auto;
-  border: 2px solid #008f11;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 11px 0px #008f11;
-          box-shadow: 0px 0px 11px 0px #008f11;
-  margin: 0;
-}
-
-#aboutme .photo .CV-icon {
-  margin-bottom: 80px;
-  padding: 70px 0px;
-}
-
-#aboutme .photo .CV-icon i {
-  font-size: 70px;
+.aboutme .CV .CV-icon i {
+  font-size: 100px;
   color: #008f11;
   -webkit-transition: .3s;
   transition: .3s;
@@ -135,32 +112,32 @@ header .bgimg p {
           animation: focus 1.4s infinite;
 }
 
-#aboutme .photo .CV-icon i:hover {
+.aboutme .CV .CV-icon i:hover {
   text-shadow: 0px 0px 16px #008f11;
 }
 
-#aboutme .photo .CV-icon p {
-  margin-top: 20px;
-  font-size: 18px;
+.aboutme .CV .CV-icon p {
+  margin-top: 26px;
+  font-size: 22px;
   text-transform: uppercase;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-#aboutme .photo .CV-icon p:hover {
+.aboutme .CV .CV-icon p:hover {
   color: #4FD563;
   text-shadow: 0px 0px 10px #008f11;
 }
 
-#technologies .tech-icon i {
+.technologies .tech-icon i {
   font-size: 100px;
 }
 
-#projects .wrapper {
+.projects .wrapper {
   width: 90%;
 }
 
-#projects .github {
+.projects .github {
   width: 40%;
 }
 
@@ -175,22 +152,22 @@ header .bgimg p {
   h2 {
     font-size: 36px;
   }
-  #aboutme p {
+  .aboutme p {
     font-size: 18px;
   }
-  #aboutme h5 {
+  .aboutme h5 {
     font-size: 24px;
   }
-  #technologies .col-xl-1 {
+  .technologies .col-xl-1 {
     max-width: 15%;
   }
-  #technologies .tech-icon {
+  .technologies .tech-icon {
     margin-bottom: 50px;
   }
-  #technologies .tech-icon i {
+  .technologies .tech-icon i {
     font-size: 80px;
   }
-  #technologies .tech-icon p {
+  .technologies .tech-icon p {
     font-size: 17px;
   }
 }
@@ -199,32 +176,32 @@ header .bgimg p {
   h2 {
     font-size: 40px;
   }
-  #aboutme .info p {
+  .aboutme .info p {
     font-size: 20px;
   }
-  #aboutme h5 {
+  .aboutme h5 {
     font-size: 28px;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  #aboutme h5 {
+  .aboutme {
+    min-height: 70vh;
+  }
+  .aboutme h5 {
     font-size: 34px;
   }
-  #aboutme .info-div {
-    min-height: 27%;
+  .aboutme .info-div {
+    min-height: 40%;
   }
-  #aboutme .info-div p {
+  .aboutme .info-div p {
     font-size: 24px;
   }
-  #aboutme .photo .CV-icon {
-    margin-bottom: 40px;
+  .aboutme .CV .CV-icon i {
+    font-size: 110px;
   }
-  #aboutme .photo .CV-icon i {
-    font-size: 90px;
-  }
-  #aboutme .photo .CV-icon p {
-    font-size: 22px;
+  .aboutme .CV .CV-icon p {
+    font-size: 24px;
   }
 }
 /*# sourceMappingURL=large.css.map */
